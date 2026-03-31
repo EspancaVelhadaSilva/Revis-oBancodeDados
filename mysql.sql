@@ -23,4 +23,7 @@ foreign key (cursos_id) references
 cursos (id)
 );
 insert into alunos (nome, idade, cidade)
-values ('Arthur', 15, 'Maringá')
+values ('Arthur', 15, 'Maringá'),
+('Miguel', 16, 'Maringá'),
+('Mateus', 17, 'Maringá');
+select * from alunos
