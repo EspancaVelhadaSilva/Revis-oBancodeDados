@@ -27,3 +27,5 @@ values ('Arthur', 15, 'Maringá'),
 ('Miguel', 16, 'Maringá'),
 ('Mateus', 17, 'Maringá');
 select * from alunos
+where idade >15
+select nome, cidade from alunos;
