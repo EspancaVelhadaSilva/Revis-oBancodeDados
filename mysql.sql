@@ -22,4 +22,5 @@ alunos (id),
 foreign key (cursos_id) references 
 cursos (id)
 );
-insert into alunos
+insert into alunos (nome, idade, cidade)
+values ('Arthur', 15, 'Maringá')
