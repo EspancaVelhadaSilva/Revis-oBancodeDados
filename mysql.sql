@@ -13,13 +13,13 @@ nome varchar(100),
 carga_horaria int
 );
 create table matriculas (
-id int auto_increment primarykey,
+id int auto_increment primary key,
 alunos_id int, 
 cursos_id int,
 nota decimal(5, 2),
 foreign key (alunos_id) references
 alunos (id), 
 foreign key (cursos_id) references 
-cursos (id),
+cursos (id)
 );
 insert into alunos
